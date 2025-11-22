@@ -8,14 +8,14 @@ div.home-container {
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
-	max-width: 60em;
+	max-width: 70em;
 	margin: auto;
 }
 
 div.container { 
 	position: relative;
 	min-height: 100vh;
-	max-width: 60em;
+	max-width: 70em;
 	margin: auto;
 	background-color: rgb(255, 255, 255);
 }
@@ -118,7 +118,7 @@ p {
 }
 
 article {
-	background-color: rgb(6, 214, 255);
+	background-color: rgb(6, 251, 255);
 	margin: 0em .75em 0em;
 	
 }
@@ -133,7 +133,7 @@ p.price {
 	grid-column: 2/3;
 	color: rgb(255,0,0);
 	text-align: right;
-	margin: 0em;
+	margin: 0em 1em;
 
 	}
 	
@@ -200,7 +200,7 @@ footer p {
 
 	main.menu ul {
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 1em 4em;
 	}
 
