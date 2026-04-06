@@ -1,0 +1,106 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+
+h1 {
+	margin: 2em 0em 0em 0.5em;
+}
+
+h2 {
+	margin: 1em 0em .75em 0em;
+	font-size: 1.25em;
+}
+
+h3 {
+	margin: 1em 0em 0em 0em;
+	color: #222;
+	font-size: 1em;
+}
+
+ol {
+	padding: 0em;
+	/* list-style-position: outside; */
+}
+
+p {
+	margin: 0em 0em 1em 0em;
+	color: #222;
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+figure {
+	margin: 2em 0em 2em 0;
+	
+}
+
+div.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	background: #fafafa;
+	flex: 1 0 100%;
+}
+
+article {
+	flex: 2 0 30em;
+	padding: 0em 1em;
+}
+
+aside {
+	padding-right: 3em;
+	flex: 1 0 15em;
+}
+
+section {
+	padding: .5em;
+	background: #e4e4e4;
+	margin-top: 1em;
+}
+
+footer {
+	border-top: 2px solid #222;
+	margin: 2em;
+	flex: 1 0 100%;
+}
+
+footer p {
+	margin: 2em 0em;
+}
+
+footer p a {
+	margin: 2em 0em;
+	color: #222;
+}
+
+@media screen and (min-width: 60em) {
+	
+    body {
+		background-color: #fafafa;
+	}
+
+    article {
+        margin: 0em 5em 0em 4em;
+    }
+	
+	header {
+		margin: 0em 0em 0em 4em;
+	}
+}
