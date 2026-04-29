@@ -1,158 +1,188 @@
-/*CSS document*/
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- You need this to proper scale in actual mobile devices.-->
+             <!-- Don’t forget to link to your CSS here. -->
+             <link rel="stylesheet" href="style.css">
+            <title>Hannah Yee</title> <!-- This will be replaced with the actual name of the publication later.  -->
 
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
 
-div.container {
-    margin: auto;
-    max-width: 60em;
-}
+        <body>
+            <div class="container">
+                
+                <!-- header is outside the main, but inside the div container. -->
+                <header>
+                    <h1>
+                        <a href="index.html">
+                        <img src="logo.svg" alt="placeholder logo"></a>
+                    </h1>
 
-img {
-    width:100%;
-    display:block;
-}
-    
-figure {
-    margin-top:2em;
-    margin-left:0;
-    margin-right:0;
-}
+                <!-- For the nav, you can use the pound sign (#) for the value of the href attribute. -->
 
-figcaption {
-    font-style: italic;
-    font-size: 1em;
-    padding: 0.5rem 1rem 1.5rem;
-}
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="Style.html">Style</a>
+                        </li>
+                        <li>
+                            <a href="Music.html">Music</a>
+                        </li>
+                        <li>
+                            <a href="Wellbeing.html">Wellbeing</a>
+                        </li>
+                        <li>
+                            <a href="Sports.html">Sports</a>
+                        </li>
+                        <li>
+                            <a href="Opinion.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-body {
-	font-family: sans-serif;
-	}
+                <main>
+                    <section class="soccer"><!-- Teaser for the main story. You want to give it a class.-->
+                       
+                        <a href="mainstory.html">
+                            <!-- Here, you’ll include an image in an img element, that will be inside a figure element. You don’t need a caption, but include an empty alt attribute. -->
+                            <figure>
+                                <img src="soccer-1.jpg" alt="">
+                            </figure>
+                            <!-- Include the heading (h2) and filler text (p) for the main story. -->
+                            <h2>Story about soccer</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
+                    
+                    <section class="dance"> <!-- Teaser for a secondary story, with images. You want to give it a different class. -->
+                        <a href="#">
+                            <!-- Here, you’ll include an image in an img element, that will be inside a figure element. You don’t need a caption, but include an empty alt attribute. -->
+                            <figure>
+                                <img src="dance-1.jpg" alt="">
+                            </figure>
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about dance</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-header {
-    padding: .5em 0;
-    margin-top: 2em;
-}
+                    <section class="coffee"> <!-- Teaser for a secondary story, with images. You want to give it a different class. -->
+                        <a href="#">
+                            <!-- Here, you’ll include an image in an img element, that will be inside a figure element. You don’t need a caption, but include an empty alt attribute. -->
+                            <figure>
+                                <img src="coffee-1.jpg" alt="">
+                            </figure>
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about coffee</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-h1 {
-    width: 10em;
-    padding: 1rem 1rem;
-}
+                    <section class="trees"> <!-- Teaser for a secondary story, with images. You want to give it a different class. -->
+                        <a href="#">
+                            <!-- Here, you’ll include an image in an img element, that will be inside a figure element. You don’t need a caption, but include an empty alt attribute. -->
+                            <figure>
+                                <img src="trees-1.jpg" alt="">
+                            </figure>
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about trees</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-h2 {
-    font-family: serif;
-    font-size: 2em;
-    font-weight: bold;
-    color: rgb(19, 103, 151);
-    padding: 0.5rem 1rem 0;
-}
+                    <section class="guitars"> <!-- Teaser for a secondary story, with images. You want to give it a different class. -->
+                        <a href="#">
+                            <!-- Here, you’ll include an image in an img element, that will be inside a figure element. You don’t need a caption, but include an empty alt attribute. -->
+                            <figure>
+                                <img src="guitars-1.jpg" alt="">
+                            </figure>
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about guitars</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-a {
-   text-decoration: none;
-   color: rgb(19, 103, 151);
-}
+                    <section class="cars"> <!-- Teaser for a secondary story, with images. You want to give it a different class. -->
+                        <a href="#">
+                            <!-- Here, you’ll include an image in an img element, that will be inside a figure element. You don’t need a caption, but include an empty alt attribute. -->
+                            <figure>
+                                <img src="cars-1.jpg" alt="">
+                            </figure>
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about cars</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>       
+                    </section>
 
-a:visited {
-    color: rgb(19, 103, 151);
-}
+                    <!-- You will need to replicate the section above to have a total of five secondary stories. Include their images and filler content. -->
 
-p {
-    font-size: 1em;
-    line-height: 1.25em;
-    color: rgb(5,5,5);
-    padding: 0 1rem 3rem;
-}
+                    <section class="tertiary"> <!-- Teaser for a tertiary story, with no images. You want to give it a third class. -->
+                        <a href="#">
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about surfing</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-nav {
-    list-style-type: none;
-    margin-top: .25em;
-    font-weight: bold;
-    font-size: 1em;
-    padding: 0rem .5rem 0;
-}
+                    <section class="tertiary"> <!-- Teaser for a tertiary story, with no images. You want to give it a third class. -->
+                        <a href="#">
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about hiking</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-nav ul li {
-    color: rgb(19, 103, 151);
-    list-style-type: none;
-    margin: .5em;
-}
+                    <section class="tertiary"> <!-- Teaser for a tertiary story, with no images. You want to give it a third class. -->
+                        <a href="#">
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about flowers</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-section {
-    margin-top: 2em;
-}
+                    <section class="tertiary"> <!-- Teaser for a tertiary story, with no images. You want to give it a third class. -->
+                        <a href="#">
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about candles</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-section.soccer h2 {
-    font-size: 3em;
-}
-section.tertiary {
-    border-top: 2px solid rgb(19, 103, 151);
-    margin-top: 2em;
-}
+                    <section class="tertiary"> <!-- Teaser for a tertiary story, with no images. You want to give it a third class. -->
+                        <a href="#">
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about astronomy</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
 
-section.tertiary h2{
-    font-size: 1em;
+                    <section class="tertiary"> <!-- Teaser for a tertiary story, with no images. You want to give it a third class. -->
+                        <a href="#">
+                            <!-- Include the heading (h2, yes h2 again, you can style it different in CSS if you give your section with secondary stories a different class) and filler text (p) for the main story. -->
+                            <h2>Story about astrology</h2>
+                            <p>Loren ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incidicunt ut labore et dolore magna aliqua. Ut enim as minim veniam, quis nostrud exercitation uliamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </a>    
+                    </section>
+                    
+                    <!-- You will need to replicate the section above to have a total of six tertiary stories in your page, with no images. -->
 
-}
+                </main>
 
-aside {
-    background-color: rgb(203, 207, 245);
-    padding: .5em;
-    margin-top: 2em;
-}
+                <!-- footer is outside the main, but inside the div container. -->
+                
+                <footer>
+                    <p>All rights reserved.</p>
+                </footer>
+                
+            </div>
+        </body>
+    </html>
 
-aside h2 {
-    font-size: 1em;
-}
 
-footer {
-    background-color: rgb(19, 103, 151);
-    padding: .5em;
-    margin-top: 2em;
-}
-
-footer p {
-    color: rgb(250,250,250);
-}
-
-@media only screen and (min-width: 60em) {
-
-    div.container {
-        max-width: 60em;
-        margin: auto;
-        padding: 0 2em;
-    }
-    nav ul li {
-		display: inline;
-        margin: none;
-	}
-
-    nav ul {
-        padding: none;
-    }
-
-    nav {
-        padding: 0rem;
-    }
-
-    h1 {
-        padding: 1.5rem 0;
-    }
-
-    h2 {
-        padding: 0.5rem 0 0;
-        margin: auto;
-    }
-
-    p {
-        padding: 0 0 3rem 0;
-        margin: auto;
-    }
-
-    figcaption {
-        padding: 0.5rem 0 1.5rem;
-    }
-
-    section.soccer h2 {
-        padding: 0.5rem 0 0;
-        margin: auto;
-    }
-  }
