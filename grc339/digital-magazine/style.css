@@ -100,8 +100,10 @@ section.tertiary {
 }
 
 section.tertiary h2{
-    font-size: 1em;
+    font-size: 1.2em;
     color: rgb(250 251 238);
+    -webkit-text-stroke-width: .1em;
+    -webkit-text-stroke-color:rgb(131, 147, 129);
 
 }
 
