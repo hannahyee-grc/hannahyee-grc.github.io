@@ -25,11 +25,13 @@ figcaption {
 
 body {
 	font-family: sans-serif;
+    background-color: rgb(250 251 238);
 	}
 
 header {
     padding: .5em 0;
     margin-top: 2em;
+    background-color: rgb(131, 147, 129);
 }
 
 h1 {
@@ -38,20 +40,22 @@ h1 {
 }
 
 h2 {
-    font-family: serif;
-    font-size: 2em;
-    font-weight: bold;
-    color: rgb(19, 103, 151);
+    font-family: "futura-100", sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(72, 96, 54);
     padding: 0.5rem 1rem 0;
 }
 
 a {
    text-decoration: none;
-   color: rgb(19, 103, 151);
+   color: rgb(250 251 238);
+   
 }
 
-a:visited {
-    color: rgb(19, 103, 151);
+a:hover {
+    color: rgb(252, 202, 123);
 }
 
 p {
@@ -59,6 +63,9 @@ p {
     line-height: 1.25em;
     color: rgb(5,5,5);
     padding: 0 1rem 1rem;
+    font-family: "futura-100-book", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav {
@@ -67,6 +74,9 @@ nav {
     font-weight: bold;
     font-size: 1em;
     padding: 0rem .5rem 0;
+    font-family: "futura-100", sans-serif;
+font-weight: 700;
+font-style: italic;
 }
 
 nav ul li {
@@ -80,20 +90,23 @@ section {
 }
 
 section.soccer h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 section.tertiary {
-    border-top: 2px solid rgb(19, 103, 151);
+    border-top: 2px solid rgb(49, 82, 45);
     margin-top: 1em;
+    
+
 }
 
 section.tertiary h2{
     font-size: 1em;
+    color: rgb(250 251 238);
 
 }
 
 aside {
-    background-color: rgb(203, 207, 245);
+    background-color: rgb(131, 147, 129);
     padding: .5em;
 }
 
@@ -102,7 +115,7 @@ aside h2 {
 }
 
 footer {
-    background-color: rgb(19, 103, 151);
+    background-color: rgb(49, 82, 45);
     padding: .5em;
     margin-top: 2em;
 }
